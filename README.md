@@ -1,4 +1,4 @@
-###　1. 项目结构
+### 1. 项目结构
 
 ~~~ｓｈｅｌｌ
 .
@@ -73,7 +73,7 @@ $ ./distanct
 
 
 
-###　其他
+### 其他
 
 ##### １．如何使用网络摄像头
 
@@ -86,7 +86,7 @@ cap.open("http://192.168.1.100:8080/?action=stream?dummy=param.mjpg");
 
 github 链接： https://github.com/cshorler/webcam-tools/tree/master/uvcdynctrl
 
-######　（１）安装
+###### (1) 安装
 
 ~~~
 sudo apt-get install uvcdynctrl
