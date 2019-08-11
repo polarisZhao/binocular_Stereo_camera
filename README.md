@@ -1,12 +1,19 @@
 ### 1. 项目结构
 
-~~~ｓｈｅｌｌ
+~~~shell
 .
-├── 5PCL3drestruction
-│   ├── pcltest.cpp
-│   ├── rabbit.pcd
-│   ├── 三维重建.cpp
-│   └── 配置环境依赖项.txt
+├── 3dreconstruction
+│   ├── 3dreconstruction.cpp
+│   ├── CMakeLists.txt
+│   ├── LeftView.png
+│   ├── RightView.png
+│   ├── build
+│   ├── pcltest  # PCL test 
+│   │   ├── CMakeLists.txt
+│   │   ├── build
+│   │   ├── pcltest.cpp
+│   │   └── rabbit.pcd
+│   └── rectified.png
 ├── calibration_and_rectify #　相机标定和纠正
 │   ├── calibration_and_rectify.cpp
 │   └── img_list.xml
@@ -68,7 +75,10 @@ $ ./distanct
 ##### Demo5
 
 ~~~shell
-### 
+$ cd 3dreconstruction/build
+$ cmake ..
+$ make -j4
+$ ./3dreconstruction
 ~~~
 
 
