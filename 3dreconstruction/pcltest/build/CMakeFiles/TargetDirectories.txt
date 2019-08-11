@@ -1,3 +1,0 @@
-/home/zhaozhichao/Desktop/binocular_Stereo_camera-master/3dreconstruction/pcltest/build/CMakeFiles/rebuild_cache.dir
-/home/zhaozhichao/Desktop/binocular_Stereo_camera-master/3dreconstruction/pcltest/build/CMakeFiles/pcltest.dir
-/home/zhaozhichao/Desktop/binocular_Stereo_camera-master/3dreconstruction/pcltest/build/CMakeFiles/edit_cache.dir
